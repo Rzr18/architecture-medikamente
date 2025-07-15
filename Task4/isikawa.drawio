@@ -1,0 +1,262 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="9dTkspsSkMFFIch7ZOL8" name="Page-1">
+    <mxGraphModel dx="2690" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="16" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="1030" as="sourcePoint" />
+            <mxPoint x="1350" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="620" as="sourcePoint" />
+            <mxPoint x="790" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Инфраструктура&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="430" y="140" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="620" as="sourcePoint" />
+            <mxPoint x="1350" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Интеграция" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="980" y="140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="1030" as="sourcePoint" />
+            <mxPoint x="790" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Персонал" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="510" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=292;endSize=44.1;fillColor=#dae8fc;strokeColor=#6c8ebf;width=18;" parent="1" source="7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="445" as="sourcePoint" />
+            <mxPoint x="1600" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="70" y="200" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45" style="edgeStyle=none;html=1;" parent="44" source="46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Сбои оборудования &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="44" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="100" y="230" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48" style="edgeStyle=none;html=1;" parent="47" source="49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Проблемы развертывания системы &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="47" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="130" y="260" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51" style="edgeStyle=none;html=1;" parent="50" source="52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Отсутствие резервирования&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="50" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="170" y="300" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="54" style="edgeStyle=none;html=1;" parent="53" source="55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Недостаточная пропускная способность каналов связи&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="53" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="210" y="340" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="57" style="edgeStyle=none;html=1;" parent="56" source="58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Нехватка места на дисках &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="56" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="72" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="200" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="73" style="edgeStyle=none;html=1;" parent="72" source="74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Неучтенные особенности готовых подсистем &lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="72" vertex="1">
+          <mxGeometry x="30" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="630" y="230" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="76" style="edgeStyle=none;html=1;" parent="75" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="15" as="targetPoint" />
+            <mxPoint x="470" y="15" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Ошибки реализации модулей интеграции&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="75" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="695" y="265" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="79" style="edgeStyle=none;html=1;" parent="78" source="80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Ошибки взаимодействия подсистем &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="78" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="81" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="730" y="300" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82" style="edgeStyle=none;html=1;" parent="81" source="83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83" value="&lt;span style=&quot;color: rgb(59, 59, 59); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;Неоправданно сложное внедрение готовых подсистем &lt;/span&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="81" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="770" y="340" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="85" style="edgeStyle=none;html=1;" parent="84" source="86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Проблемы совместимости форматов данных&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="84" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="104" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="220" y="500" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="105" style="edgeStyle=none;html=1;" parent="104" source="106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="106" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Сопротивление изменениям со стороны сотрудников&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="104" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="190" y="530" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="108" style="edgeStyle=none;html=1;" parent="107" source="109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="109" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Проблемы адаптации персонала к новому продукту&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="107" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="110" value="" style="group;align=right;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="160" y="560" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="111" style="edgeStyle=none;html=1;" parent="110" source="112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="112" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Отсутствие опыта сопровождения подобных систем&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="110" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="250" y="470" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="102" style="edgeStyle=none;html=1;" parent="116" source="103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="103" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Недостаток опыта разработки микросервисов&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="116" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Производительность" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="660" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="118" style="edgeStyle=none;html=1;" parent="1" source="119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="121" style="edgeStyle=none;html=1;" parent="1" source="122" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="130" style="edgeStyle=none;html=1;" parent="1" source="131" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="131" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Завышенный отклик элементов системы&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="810" y="470" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="119" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;Недостаточная пропускная способность шлюзов &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="500" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="122" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Тяжелые запросы к базам данных&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="710" y="540" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="132" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="660" y="620" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="127" style="edgeStyle=none;html=1;" parent="132" source="128" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="128" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;Недостаточные вычислительные мощности&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="132" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="133" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="700" y="580" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="124" style="edgeStyle=none;html=1;" parent="133" source="125" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="125" value="&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 23px;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59);&quot;&gt;Проблемы одновременного доступа &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="133" vertex="1">
+          <mxGeometry width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t8mo3XFB3obTzqy7DWDO-133" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=292;endSize=44.1;fillColor=#dae8fc;strokeColor=#6c8ebf;width=18;" edge="1" parent="1" target="7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="445" as="sourcePoint" />
+            <mxPoint x="1600" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;size=60;" parent="1" vertex="1">
+          <mxGeometry x="40" y="350" width="90" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
