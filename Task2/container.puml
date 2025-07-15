@@ -1,0 +1,83 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Целевая архитектура системы "Медикаменте" - Context Level
+
+Person(patient, "Пациент")
+Person(doctor, "Доктор")
+Person(recept, "Ресепшен")
+Person(cashier, "Кассир")
+Person(accountant, "Бухгалтер")
+Person(warehouse_keeper, "Кладовщик")
+Person(analyst, "Аналитик")
+
+System_Ext(lab_system, "Лаборатория", "Внешняя система лабораторных исследований")
+System_Ext(payment_gateway, "Платежный шлюз", "Внешняя система приема платежей")
+System_Ext(sms_service, "SMS-сервис", "Внешний сервис уведомлений")
+System_Ext(email_service, "Email-сервис", "Внешний сервис электронной почты")
+
+System_Boundary(medicamente_boundary, "МЕДИКАМЕНТЕ") {
+    
+    System(patient_portal, "Портал пациентов", "Записи пациентов, просмотра анализов, заключений, договора")
+    System(staff_portal, "Портал сотрудников", "Управление внутренними процессами")
+    System(crm_system, "CRM система", "Система управления взаимоотношениями с клиентами")
+    
+    System(privacy_gateway, "Система обеспечения конфиденциальности данных", "- Псевдонимизация\n- Шифрование \n- Контроль доступа (Keycloak-RBAC)\n- Логирование\n- Тегирование")
+    
+    System(core_medical_system, "Медицинская система", "- Медицинские карты\n- Записи к врачам\n- Результаты анализов \n PHI \n S3 / PostgreSQL \n SHA-256")
+
+    System(client_pers_system, "Система персональных данных клиентов", "Персональные данные\nСоответсвия псевдонимов \n\n PII \n S3 / PostgreSQL \n SHA-256")
+    
+    System(analytics_platform, "Аналитическая платформа", "Система аналитики и машинного обучения\n- BI-отчеты\n- ML-модели\n- Прогнозная аналитика")
+    
+    System(audit_system, "Система аудита", "Система мониторинга и аудита доступа к данным\n- Логирование действий\n- Детекция аномалий\n- Алертинг \nSIEM Splunk")
+    System_Boundary(onec, "Системы 1С"){
+        System(onec_accounting, "1С:Бухгалтерия предприятия")
+        System(onec_warehouse, "1С:Торговля и склад")
+    }
+    System(notification_system, "Система уведомлений", "Центральная система отправки уведомлений")
+
+}
+
+' Взаимодействие пациентов
+Rel(patient, patient_portal, "Записывается на прием,\nпросматривает результаты", "HTTPS")
+Rel(patient_portal, privacy_gateway, "Персональные данные\nPII", "HTTPS/TLS")
+Rel(privacy_gateway, client_pers_system, "Чтение/запись персональных данных о клиентах", "HTTPS/TLS")
+
+' Взаимодействие врачей
+Rel(doctor, staff_portal, "Работает с медицинскими картами,\nназначает лечение", "HTTPS")
+Rel(staff_portal, privacy_gateway, "Медицинские данные, платежи\nPHII, FI", "HTTPS/TLS")
+
+' Взаимодействие администраторов
+Rel(recept, staff_portal, "Управляет записями,\nведет реестр пациентов", "HTTPS")
+Rel(cashier, staff_portal, "Обрабатывает платежи", "HTTPS")
+Rel_L(accountant, onec_accounting, "Ведет бухгалтерский учет", "HTTPS")
+Rel_L(warehouse_keeper, onec_warehouse, "Управляет ТМЦ", "HTTPS")
+
+' Взаимодействие аналитиков
+Rel(analyst, analytics_platform, "Строит отчеты,\nанализирует данные", "HTTPS")
+
+' Поток данных через Privacy Gateway
+Rel(privacy_gateway, core_medical_system, "Псевдонимизированные \n медицинские данные", "HTTPS/TLS")
+Rel(privacy_gateway, analytics_platform, "Псевдонимизированные\nсобытия", "HTTPS/TLS")
+
+' Система аудита
+Rel(privacy_gateway, audit_system, "Логи доступа\nи операций", "HTTPS/TLS")
+Rel(core_medical_system, audit_system, "События системы", "HTTPS/TLS")
+Rel(analytics_platform, audit_system, "Аналитические запросы", "HTTPS/TLS")
+
+' Внешние интеграции
+Rel(core_medical_system, lab_system, "Результаты анализов\n(через защищенный API)", "HTTPS/TLS")
+Rel(onec_accounting, payment_gateway, "Обработка платежей", "HTTPS/TLS")
+Rel(privacy_gateway, onec_accounting, "Данные о платежах пациентов\nFI", "HTTPS/TLS")
+Rel(notification_system, sms_service, "SMS-уведомления", "HTTPS/TLS")
+Rel(notification_system, email_service, "Email-уведомления", "HTTPS/TLS")
+Rel(patient_portal,payment_gateway,"Выполнение платежей", "HTTPS/TLS")
+
+' Внутренние связи
+Rel_D(privacy_gateway, crm_system, "Псевдонимизированные данные о клиентах", "HTTPS/TLS")
+Rel(core_medical_system, notification_system, "Уведомления пациентам", "HTTPS/TLS")
+Rel(onec_warehouse, onec_accounting, "", "OLE")
+
+@enduml
